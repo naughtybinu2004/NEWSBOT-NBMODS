@@ -106,7 +106,7 @@ if (imgurl === undefined || imgurl.length === 0) {
 })
 let cors = require('cors')
 let secure = require('ssl-express-www')
-let PORT = process.env.PORT || 8989 || 5000 || 3000
+let PORT = process.env.PORT || 8989 || 8181 || 8080
 let app = express()
 app.enable('trust proxy');
 app.set("json spaces",2)
