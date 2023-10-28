@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "start index.js"
+        "start": "node index.js"
     },
     "dependencies": {
         "@adiwajshing/baileys": "git+https://github.com/vihangayt0/Baileys.git",
