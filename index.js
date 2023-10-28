@@ -120,7 +120,7 @@ app.listen(PORT, () => {
 })
    app.use((req, res, next) => {
     setInterval(async() =>{
-await axios.get('https://news-bot.anomamis.repl.co/').catch(console.error)
+await axios.get('https://successful-fly-cowboy-boots.cyclic.app').catch(console.error)
   
 }, 300000 )
     
