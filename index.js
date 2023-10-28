@@ -50,7 +50,6 @@ console.log('ℹ️  Connecting to Whatsapp... Please wait.')
 
       // Initialize the `sentArticles` set.
       const sentArticles = new Set();
-      const fuck = process.env['nb_mods'];
       // Read the old news from the JSON file.
       const oldNews = Array.from(JSON.parse(fs.readFileSync('news.json')));
 
@@ -60,7 +59,7 @@ console.log('ℹ️  Connecting to Whatsapp... Please wait.')
       }
 
       // Read the new news from the API.
-      const response = await axios.get(fuck);
+      const response = await axios.get("https://ada-derana-news-api.sl-technicaltec.repl.co/");
       const newsData = response.data;
 
       // Convert the news data to an array.
