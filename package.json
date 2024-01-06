@@ -2,13 +2,14 @@
     "name": "queenLiza",
     "version": "1.0",
     "description": "",
-    "main": "index.js",
+    "main": "pm2.config.js",
     "scripts": {
-        "start": "node index.js"
+        "start": "pm2 start pm2.config.js"
     },
     "dependencies": {
         "@adiwajshing/baileys": "git+https://github.com/vihangayt0/Baileys.git",
         "@adiwajshing/keyed-db": "^0.2.4",
+        "aws-sdk": "^2.1528.0",
         "axios": "^0.24.0",
         "body-parser": "^1.20.2",
         "chalk": "^4.1.2",
