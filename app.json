@@ -1,27 +1,8 @@
 {
-  "name": "queenLiza",
-  "description": "Your WhatsApp bot description",
-  "repository": "https://github.com/your-username/queenLiza",  // Replace with your GitHub repository URL
-  "keywords": ["whatsapp", "bot", "nodejs"],
-  "image": "heroku/nodejs",  // Specify the official Node.js image
-  "addons": [
-    // Add any necessary Heroku add-ons here
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ],
-  "scripts": {
-    "postdeploy": "npm run start"
-  },
-  "env": {
-    // Add any environment variables your app needs here
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "free"
-    }
+    "name": "NBMODS NEWS BOT",
+    "description": "Heroku whatsapp js deploy",
+    "repository": "https://github.com/naughtybinu2004/NEWSBOT-NBMODS",
+    "logo": "http://pngimg.com/uploads/telegram/telegram_PNG36.png",
+    "keywords": ["node", "express", "static"]
   }
-}
+  
