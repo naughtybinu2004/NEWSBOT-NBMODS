@@ -1,11 +1,11 @@
 {
-    "name": "queenLiza",
-    "version": "1.0",
-    "description": "",
-    "main": "pm2.config.js",
-    "scripts": {
-        "start": "pm2 start pm2.config.js"
-    },
+   "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
     "dependencies": {
         "@adiwajshing/baileys": "git+https://github.com/vihangayt0/Baileys.git",
         "@adiwajshing/keyed-db": "^0.2.4",
